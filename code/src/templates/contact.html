@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Details</title>
+  <style type="text/css">
+    body, html {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e8f1f2;
+      color: #333;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 1fr;
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+    }
+
+    .pie-chart-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      background-color: #f4f4f4;
+      height: 100%;
+    }
+
+    #pie-chart-title {
+      font-size: 24px;
+      margin-bottom: 20px; /* Space between the title and the pie chart */
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+    }
+
+    .card-container::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .card-container::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 16px;
+    }
+
+    .back-btn {
+      position: fixed;
+      top: 10px;
+      left: 20px;
+      padding: 8px 15px;
+      background-color: transparent;
+      color: #373837;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      border: 1px solid #4caf4f00;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .back-btn:hover {
+      background-color: #fafafa;
+      color: white;
+    }
+
+    canvas {
+      width: 90% !important; /* Increase the width of the pie chart */
+      height: auto; /* Adjust height according to width */
+      max-width: 800px; /* Limit the width of the chart */
+    }
+
+    /* Info Section Styling */
+    .info-section {
+      padding: 20px;
+      background-color: hsla(161, 87%, 91%, 0);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(73, 73, 73, 0.1);
+      height: 90%;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      border: 2px solid #d45c80;
+    }
+
+    .info-section::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .info-section::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+
+    .info-section h3 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .info-item {
+      font-size: 16px;
+      margin-bottom: 15px;
+      line-height: 1.0;
+      color: rgb(54, 47, 101);
+    }
+
+    .info-item strong {
+      font-weight: bold;
+    }
+
+  </style>
+  <!-- Include Chart.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <a href="/" class="back-btn">Back to Home &larr;</a>
+
+  <div class="container">
+    <!-- Pie Chart Container -->
+    <div class="pie-chart-container">
+      <h2 id="pie-chart-title">Transaction Risk</h2> <!-- Title above the Pie Chart -->
+      <canvas id="pie-chart"></canvas>
+    </div>
+
+    <!-- Cards Container Below the Pie Chart -->
+    <div class="card-container" id="cards-container">
+    </div>
+
+    <!-- Information Section on the Right -->
+    <div class="info-section">
+      <h3>Risk Assessment Criteria</h3>
+      <div class="info-item">
+        <strong>1. Entity Reputation (20 pts):</strong><br>
+        - 0-5: Clean history<br>
+        - 6-10: Minor disputes<br>
+        - 11-15: Legal issues<br>
+        - 16-20: Sanctions or fugitive status
+      </div>
+
+      <div class="info-item">
+        <strong>2. Transaction Amount (15 pts):</strong><br>
+        - 0-5: Normal amount<br>
+        - 6-10: Unusual amount<br>
+        - 11-15: Extremely high or low
+      </div>
+
+      <div class="info-item">
+        <strong>3. Geographic Risk (15 pts):</strong><br>
+        - 0-5: Low-risk (USA/EU)<br>
+        - 6-10: Moderate-risk<br>
+        - 11-15: High-risk (FATF blacklist)
+      </div>
+
+      <div class="info-item">
+        <strong>4. Transaction Pattern (20 pts):</strong><br>
+        - 0-5: Normal pattern<br>
+        - 6-10: Irregular timing<br>
+        - 11-15: Structured payments<br>
+        - 16-20: No logical purpose
+      </div>
+
+      <div class="info-item">
+        <strong>5. External Data (30 pts):</strong><br>
+        - 0-10: No red flags<br>
+        - 11-20: Negative news<br>
+        - 21-30: Sanctions/legal actions
+      </div>
+    </div>
+  </div>
+
+  <script>
+   window.onload = function() {
+  const data = JSON.parse(localStorage.getItem("contactData"));
+
+  if (data) {
+    const container = document.getElementById('cards-container');
+
+    // Generate cards in a stack format
+    for (let key in data) {
+      if(key == "pie_score") { continue; }
+      if (data.hasOwnProperty(key)) {
+        const card = document.createElement('div');
+        card.classList.add('card');
+        const cardTitle = document.createElement('h2');
+        cardTitle.textContent = key;
+        const cardContent = document.createElement('p');
+        cardContent.innerHTML  = data[key].replace(/\n/g, "<br>");
+        card.appendChild(cardTitle);
+        card.appendChild(cardContent);
+        container.appendChild(card);
+      }
+    }
+
+    // Pie chart setup with dynamic data from data["pie_score"]
+    const pieScore = JSON.parse(data.pie_score); // Parse the JSON string from data["pie_score"]
+    pieScore["Safe Score"] = 100 - pieScore["Total Risk Score"];
+    delete pieScore["Total Risk Score"];
+    const pieLabels = Object.keys(pieScore); // Get the keys (labels) of the pie chart
+    const pieData = Object.values(pieScore); // Get the values (data) of the pie chart
+
+    // Define a list of red shades
+    const redShades = [
+      "#FF5733", "#FF4D40", "#FF3E3E", "#FF0000", "#D10000", "#B30000", "#A60000"
+    ];
+
+    // Assign green to "Safe Score" and a red shade for all others
+    const pieColors = pieLabels.map((label, index) => {
+      if (label === "Safe Score") {
+        return "#28a745"; // Green for Safe Score
+      } else {
+        return redShades[index % redShades.length]; // Cycle through red shades for other labels
+      }
+    });
+
+    const ctx = document.getElementById('pie-chart').getContext('2d');
+    const pieChart = new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: pieLabels, // Use dynamic labels
+        datasets: [{
+          label: 'Pie Score Data',
+          data: pieData, // Use dynamic data values
+          backgroundColor: pieColors, // Dynamic colors based on the label
+          borderColor: '#fff', // White borders for each segment
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        animation: {
+          animateScale: true,
+          animateRotate: true,
+          duration: 1500, // Smooth animation duration
+        },
+        plugins: {
+          legend: {
+            display: false // Disable the legend
+          },
+          tooltip: {
+            callbacks: {
+              label: function(tooltipItem) {
+                return tooltipItem.label + ': ' + tooltipItem.raw;
+              }
+            }
+          }
+        }
+      }
+    });
+
+    // Update background color and title based on the safe score
+    const safeScore = pieScore["Safe Score"];
+    const pieTitle = document.querySelector('#pie-chart-title');
+    const pieChartContainer = document.querySelector('.pie-chart-container');
+    const infoSectionContainer = document.querySelector('.info-section');
+    if (safeScore > 70) {
+      document.body.style.backgroundColor = "#d4edda"; // Light green
+      pieTitle.textContent = "Safe Transaction";
+      pieChartContainer.style.backgroundColor = "#d4edda"; // Light green background for pie chart container
+      infoSectionContainer.style.borderColor="#d4edda";
+    } else if (safeScore >= 40 && safeScore <= 70) {
+      document.body.style.backgroundColor = "#fff3cd"; // Light yellow
+      pieTitle.textContent = "Moderate Risky";
+      pieChartContainer.style.backgroundColor = "#fff3cd"; // Light yellow background for pie chart container
+      infoSectionContainer.style.borderColor="#fff3cd";
+    } else {
+      document.body.style.backgroundColor = "#f8d7da"; // Light red
+      pieTitle.textContent = "Highly Risky Transaction";
+      pieChartContainer.style.backgroundColor = "#f8d7da"; // Light red background for pie chart container
+      infoSectionContainer.style.borderColor="#d45c80";
+    }
+
+  } else {
+    document.getElementById('cards-container').innerHTML = "<p>No data found.</p>";
+  }
+};
+
+  </script>
+</body>
+</html>
