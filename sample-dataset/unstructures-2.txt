@@ -1,0 +1,19 @@
+Transaction ID: TXN987654  
+Date: 2025-03-20  
+Sender  
+-Name: Offshore Holdings Ltd.  
+-Account: 123-456-789  
+-Address: 45 Ocean Drive, Cayman Islands  
+-Roles: Beneficiary, Owner  
+
+Receiver  
+-Name: XYZ Trust Fund  
+-Account: 987-654-321  
+-Address: 99 Financial Ave, Panama  
+-TaxID: PA876543210  
+
+Amount: $500,000  
+Currency Exchange: USD to EUR  
+Transaction Type: Wire Transfer  
+Reference: Payment for advisory services  
+Additional Notes: Receiver flagged for past fraudulent activities
