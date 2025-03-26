@@ -13,7 +13,7 @@
 
 ---
 
-##Note
+Note
 The OPEN AI API key works for only 2 days. The latest we generated was on 26th March. If any error comes when trying to send data kindly contact us. 
 Rajahrushikesh.Swamy@wellsfargo.com
 Tanvi.Singh@wellsfargo.com
