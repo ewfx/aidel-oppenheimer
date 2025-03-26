@@ -87,3 +87,4 @@ The system reduces manual effort, enhances accuracy, and provides actionable ins
 - **Raja Swamy** - [GitHub](#) | [LinkedIn](#)
 - **Tanvi Singh** - [GitHub](#) | [LinkedIn](#)
 - **Dwaarakesh Ramesh** - [GitHub](#) | [LinkedIn](#)
+- **Suresh Chinthanagandla**
