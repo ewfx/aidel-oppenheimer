@@ -13,6 +13,13 @@
 
 ---
 
+##Note
+The OPEN AI API key works for only 2 days. The latest we generated was on 26th March. If any error comes when trying to send data kindly contact us. 
+Rajahrushikesh.Swamy@wellsfargo.com
+Tanvi.Singh@wellsfargo.com
+dwaarakesh.ramesh@wellsfargo.com
+
+
 ## 🎯 Introduction
 Our project aims to build an AI-driven system to automate and enhance the analysis of transaction data, addressing the problem of identifying and assessing entities involved in financial transactions. This solution is designed to reduce manual effort, improve accuracy, and provide actionable insights for analysts.
 
