@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Our project aims to build an AI-driven system to automate and enhance the analysis of transaction data, addressing the problem of identifying and assessing entities involved in financial transactions. This solution is designed to reduce manual effort, improve accuracy, and provide actionable insights for analysts.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +24,58 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The project is inspired by the need to automate and enhance the manual process of analyzing financial transactions for potential fraud and risk. Analysts often face challenges such as:
+Unstructured data: Extracting meaningful insights from inconsistent or incomplete transaction details.
+Complex risk factors: Evaluating multiple dimensions like entity reputation, transaction patterns, and geographic risks.
+Time constraints: Manually assessing large volumes of data is time-consuming and prone to errors.
+This system leverages OpenAI's GPT model to provide a structured, scalable, and intelligent solution for these challenges.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+1. Risk Scoring Framework: A detailed scoring system evaluates transactions across five categories (e.g., Entity Reputation, Transaction Amount, etc.) and calculates a total risk score.
+2. Data Enrichment: Incorporates external data (e.g., geographic details from IP addresses) to enhance analysis.
+3. Structured Outputs: Provides JSON-formatted results for easy integration with other systems.
+4. Customizable Analysis: Allows for additional categories and insights based on transaction details.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+This system was built using OpenAI's GPT API to automate financial transaction risk analysis. It processes transaction data, applies a predefined scoring framework (Entity Reputation, Transaction Amount, Geographic Risk, etc.), and calculates a Total Risk Score. Key features include:
+
+1. Data Processing: Reads and processes structured (CSV) or unstructured data.
+2. AI Analysis: Sends data to GPT for detailed scoring and reasoning.
+3. Output Structuring: Extracts and formats results into JSON for easy integration.
+4. Customizable Framework: Allows dynamic scoring and additional categories.
+
+The system reduces manual effort, enhances accuracy, and provides actionable insights for analysts.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+1. OpenAI API Integration: Managing prompt engineering for consistent and accurate outputs while handling rate limits and response formatting.
+2. Data Processing: Handling diverse input formats (CSV, text) and ensuring compatibility with the AI model.
+3. Output Structuring: Parsing AI responses into structured JSON while managing incomplete or unexpected outputs.
+4. Error Handling: Addressing issues like JSONDecodeError and ensuring graceful handling of invalid inputs.
+5. Scoring Framework: Designing a balanced, comprehensive risk scoring system and aligning AI outputs with it.
+6. External Data Enrichment: Incorporating external sources (e.g., IP geolocation) for enhanced analysis.
+7. Scalability: Ensuring the system handles large datasets efficiently while remaining modular and extensible.
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/aidel-oppenheimer.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install openai
+   pip install -r requirements.txt
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   python3 app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Flask
+- 🔹 Backend: python
+- 🔹 Other: OpenAI API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Raja Swamy** - [GitHub](#) | [LinkedIn](#)
+- **Tanvi Singh** - [GitHub](#) | [LinkedIn](#)
+- **Dwaarakesh Ramesh** - [GitHub](#) | [LinkedIn](#)
