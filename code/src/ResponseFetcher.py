@@ -1,8 +1,9 @@
 from openai import OpenAI
 import json
 import re
+import Constants
 client = OpenAI(
-    api_key="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"
+    api_key= Constants.API_KEY
 )
 
 system_message={"role":"system",
