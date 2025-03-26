@@ -1,0 +1,2372 @@
+Unnamed: 0	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8
+								
+sender	country	reciever	country 	money				
+a	pakistan	b 	gaza	100000 rs				
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								Pre-Series A
+								
+								Pre-Series A
+								
+								
+								
+								Pre-Series A
+								
+								
+								Series B
+								
+								Pre-Series A
+								
+								
+								Series A
+								
+								Pre-Series A
+								Series A
+								Series C
+								
+								
+								
+								
+								Strategic Funding
+								Series A
+								Series A
+								
+								
+								Series B
+								
+								Series B
+								Series A
+								
+								
+								
+								
+								Pre-Series A
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								Yet to Launch platform
+								Series A
+								
+								
+								Series A
+								
+								
+								
+								Series B
+								
+								Pre-Series A
+								
+								Series B (includes Debt financing)
+								
+								
+								
+								
+								
+								
+								Pre-Series A
+								part of $40M Series B round
+								Series A
+								
+								
+								
+								Additional investment from parent company
+								
+								Series A
+								pre-Series A
+								Strategic Investment
+								
+								
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								Additional Funding
+								Yet to Launch
+								
+								
+								Bridge funding
+								
+								Series B
+								
+								Funding happened in Sept 2015
+								
+								
+								Series B
+								
+								
+								
+								
+								
+								Series A
+								
+								Pre-Series A Bridge
+								Series A
+								Pre-Series A
+								Pre-Series A
+								2nd seed funding
+								Series A
+								Pre-Series A
+								Series A
+								Pre-Series A
+								Series A
+								
+								
+								Series A
+								
+								Series A
+								
+								
+								
+								
+								
+								Series A
+								
+								
+								Strategic Investment
+								Series C
+								
+								
+								
+								
+								
+								Series F ( More Details Here)
+								Series A
+								Series A
+								
+								
+								
+								
+								Series B
+								
+								
+								
+								Series A
+								Pre-Series A
+								
+								
+								Series A
+								
+								Series A
+								
+								Series A
+								
+								
+								
+								Late Stage
+								
+								
+								
+								
+								Pre-Series A
+								Series B
+								Late Stage
+								Pre-Series A
+								
+								Series A
+								Pre-Series A bridge round
+								
+								
+								
+								
+								
+								
+								Strategic Investment
+								Series A
+								
+								
+								
+								
+								
+								
+								Strategic Investment
+								
+								Series A
+								Series A
+								Series B
+								Series B
+								Pre-Series A Bridge round
+								
+								
+								Pre-Series A
+								Series B
+								
+								Bridge Round
+								Pre-Series A
+								Series A
+								
+								Strategic Funding (Series C)
+								Strategic Funding
+								Series A
+								Series A
+								Series A
+								Series B
+								Series B
+								
+								
+								Pre-Series A
+								Series A
+								
+								Strategic Funding
+								
+								
+								
+								Series A
+								
+								
+								Series A
+								Series A
+								
+								Series A
+								
+								Strategic Funding
+								
+								
+								
+								
+								
+								
+								Series A
+								Series A
+								Series C
+								
+								
+								Series A
+								Series B
+								
+								
+								
+								Series A
+								
+								
+								
+								Bridge Round
+								
+								Bridge Round
+								
+								
+								
+								
+								Series A
+								Series A
+								
+								
+								
+								Series B
+								Bridge Funding
+								
+								
+								Series A
+								
+								pre-Series A
+								
+								
+								
+								
+								Series B
+								Series C
+								pre-Series A
+								
+								Series B
+								
+								Strategic Investment (Majority Stake)
+								Series A
+								Series A
+								Part of Series A raised in June 2015
+								Series C
+								Series D
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								Late Stage
+								Series A
+								
+								
+								
+								Series A
+								Series B
+								
+								
+								
+								
+								
+								Series A
+								Series A
+								
+								Series A
+								Series A
+								Late Stage
+								Part of $12M Series B funding
+								Series A
+								
+								
+								
+								Pre-Series A
+								Series A
+								
+								
+								
+								Bridge Funding
+								Series D
+								
+								
+								Pre-Series A
+								
+								
+								
+								
+								
+								
+								thru Accelerator
+								
+								
+								Series A
+								
+								
+								Pre-Series A
+								
+								Series A
+								
+								
+								
+								Series A
+								Series A
+								pre-Series A
+								
+								
+								Series A
+								
+								Pre-Series A
+								
+								late Stage (part of $500M funding rnd)
+								Late Stage (Alibaba @ 40% equity)
+								Late Stage
+								Series B
+								
+								
+								
+								
+								
+								
+								Super angel round
+								
+								Late Stage Round 7th (More details)
+								
+								
+								Series A
+								
+								
+								Series B
+								
+								Series B
+								Series A
+								
+								
+								Series A
+								Series A
+								
+								
+								
+								
+								pre Series-A
+								Series C
+								
+								
+								
+								Series C
+								Series A
+								
+								Pre-Series A
+								Series A
+								
+								
+								Pre Series-A
+								
+								
+								QPrize Contest Winners
+								Series A
+								
+								Series A
+								Series B
+								Series A
+								
+								
+								Series A
+								
+								Series B
+								Series C
+								
+								Series A
+								
+								Series B
+								
+								Series A
+								
+								
+								
+								
+								
+								
+								pre series A
+								
+								
+								
+								Strategic Investment
+								Series B
+								Series A
+								
+								
+								Series A
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								pre-series A
+								Series A
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								Strategic Investment
+								
+								Pre-Series A
+								
+								
+								
+								Series A
+								Bridge Round
+								
+								Series A
+								
+								
+								
+								Personal Investment
+								Series A
+								Series C(More here)
+								Series A
+								
+								Series A
+								Pre-Series A
+								
+								
+								
+								
+								
+								Series B
+								
+								Series A
+								Series A
+								
+								Pre-Series A
+								
+								Series C
+								Series A
+								Series C
+								
+								
+								Strategic Investment
+								Series B
+								Series A
+								Series A
+								Series B
+								Series B
+								
+								
+								
+								
+								
+								Late Stage
+								Series A
+								Series A
+								
+								Series B
+								
+								
+								Series C
+								
+								
+								Series B
+								Series B
+								
+								Series A
+								
+								Follow on Funding
+								
+								No confirmation
+								Series A
+								
+								Series A
+								Series A
+								Late Stage
+								Series A
+								Series B
+								
+								
+								Series B
+								Strategic Investment
+								Series A
+								Late Stage
+								
+								Bridge round
+								
+								Series A
+								Series A
+								
+								
+								
+								Series D
+								Late Stage, 10th Round More here
+								
+								
+								Series A
+								
+								Series A
+								Series A
+								Pre-Series A
+								Series A
+								Series A
+								
+								
+								Pre-Series A
+								
+								pre-Series A
+								Series A
+								Series A
+								Strategic Investment
+								
+								Series B
+								
+								Series C
+								
+								
+								Pre-Series A
+								
+								
+								Series A
+								
+								Series A
+								
+								Series A
+								
+								Series B
+								
+								
+								
+								
+								Series C
+								Pre-Series A
+								Series C
+								Late Stage
+								
+								Series A
+								Series A
+								
+								Series B
+								Series A
+								Series B
+								
+								Series A
+								
+								
+								Series A
+								
+								Pre-Series A
+								Series A
+								Series B
+								Series A
+								
+								
+								Series A
+								
+								
+								additional funding round
+								Series C
+								
+								Series A
+								Series A
+								Series A
+								
+								Series A
+								Series C
+								
+								Series A
+								Series A
+								Series A
+								Strategic Investment
+								
+								
+								
+								Series A
+								Series A
+								Series A
+								
+								
+								
+								
+								Series C
+								Series A
+								
+								Series C
+								Series A
+								Series A
+								
+								Series A
+								
+								
+								
+								
+								Pre-Series A
+								
+								Strategic Funding
+								Series A
+								Series D
+								
+								
+								
+								
+								
+								
+								pre-Series A
+								Series C
+								
+								Series D
+								Series B
+								Series A
+								Series A
+								Series B
+								Series A
+								
+								
+								Bridge Round Pre-Series B
+								
+								Strategic Investment
+								Pre-Series A
+								Pre-Series A
+								
+								
+								
+								
+								
+								Series B
+								
+								
+								Pre-Series Bridge
+								
+								Series A
+								Series B
+								
+								
+								
+								Series A
+								Series A
+								Series A
+								
+								
+								1% stake
+								
+								
+								
+								
+								Series A
+								
+								Series A
+								Series A
+								Series A
+								
+								
+								Series B Interim Funding
+								Series A
+								Series A
+								Series A
+								
+								
+								
+								
+								Series G (Check prev funding details here)
+								
+								
+								Series D ( In Feb it was announced they raised 26M, but it is 36M, so added here)
+								Series B
+								Series E (Updated from 315M to 400M after Press Release)
+								
+								
+								
+								Series C
+								Series B
+								
+								
+								Late Stage
+								Series B
+								
+								
+								
+								
+								Series A
+								Series B
+								Series A
+								Series D
+								
+								
+								Series B
+								
+								
+								Series A
+								Series A
+								Series E
+								Series C
+								Series A
+								Series A
+								Series A
+								Series C
+								Series B
+								
+								
+								
+								
+								Pre-Series A
+								Series B
+								
+								
+								
+								Series B
+								Series B
+								Series D
+								
+								Series C
+								
+								Series A
+								Series A
+								
+								
+								
+								Series B
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								
+								Series B
+								
+								
+								Series B
+								
+								
+								Series A
+								Series C
+								More details
+								Series C
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								Minority stake, Strategic
+								Pre-Series A
+								
+								Series A
+								
+								
+								Series B
+								
+								
+								Series B
+								Series A
+								
+								Series A
+								Series A
+								
+								
+								Series A
+								Series A
+								
+								
+								
+								
+								
+								
+								Pre-Series A
+								
+								Incremental Capital
+								Series B (More Here)
+								Series D
+								Series C
+								At the 10 minute million event
+								At the 10 minute million event
+								At the 10 minute million event
+								At the 10 minute million event
+								At the 10 minute million event
+								At the 10 minute million event
+								For mobile app
+								
+								Series A
+								Series D
+								
+								
+								Series D
+								
+								Series B
+								Strategic Investment (25% stake)
+								
+								Series C
+								Series C
+								Series A
+								
+								Series B
+								
+								
+								Series A
+								
+								
+								
+								Series B
+								Series B
+								
+								
+								Promoter Commitment
+								Series A
+								Series A
+								
+								Series A
+								
+								
+								Series A
+								Grant + Seed funding
+								Series A
+								Series A
+								Series A
+								Series A
+								
+								
+								
+								
+								
+								
+								Series A
+								
+								Series B
+								
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								Valuation at $4M
+								
+								
+								
+								3rd Round
+								Series B
+								Series A
+								
+								
+								
+								
+								
+								
+								
+								More Details
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								To fund edu startups
+								
+								
+								Majority Stake
+								
+								Series D
+								
+								Series A
+								Strategic Funding
+								Series B
+								Series A
+								
+								Govt backed VC Fund
+								
+								Strategic Funding, Minority stake
+								

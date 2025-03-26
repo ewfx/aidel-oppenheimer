@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Drowsiness Detection System</title>
+  <link rel="icon" href="../static/assets/logo.png" type="image/x-icon"> 
+  <style type="text/css">
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-size: 16px;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.8em;
+      color: #666;
+    }
+
+    .pimg1 {
+      position: relative;
+      opacity: 1;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100%;
+      background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://media3.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif?cid=6c09b95258h08mq5ngvdppd8avuy2c4mpm76tg6ku4wtedw6&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+
+    .container1 {
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      transform: translate(-50%, -50%);
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      z-index: 10;
+    }
+
+    .title {
+      font-weight: 800;
+      color: transparent;
+      font-size: 55px;
+      background: url("https://i.gifer.com/76YS.gif") repeat;
+      background-position: 40% 50%;
+      -webkit-background-clip: text;
+      position: relative;
+      text-align: center;
+      line-height: 90px;
+      letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 10px;
+      color: rgba(28, 54, 79, .9);
+    }
+
+    .button-container {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 15;
+      display: flex;
+      align-items: center;
+    }
+
+    .upload-btn {
+      padding: 10px 20px;
+      display: inline-block;
+      text-decoration: none;
+      background-color: rgba(31, 44, 84, 1);
+      color: #fff;
+      font-size: 14px;
+      font-family: Arial;
+      letter-spacing: 2px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .upload-btn:hover {
+      background-color: rgba(31, 44, 84, 0.8);
+    }
+
+    .file-input {
+      display: none;
+    }
+
+    .file-input-label {
+      display: block;
+      cursor: pointer;
+    }
+
+    .file-input-label:hover {
+      background-color: rgba(31, 44, 84, 0.8);
+    }
+
+    .textbox {
+      height: 30px;
+      width: 200px;
+      padding: 5px;
+      margin-left: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    .send-btn, .delete-btn {
+      height: 40px;
+      padding: 5px 15px;
+      margin-left: 10px;
+      background-color: rgba(31, 44, 84, 1);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .send-btn:hover, .delete-btn:hover {
+      background-color: rgba(31, 44, 84, 0.8);
+    }
+
+    /* New file name display style */
+    .file-name {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+      .title {
+        font-size: 35px;
+      }
+
+      .upload-btn {
+        width: 120px;
+        padding: 8px 20px;
+      }
+
+      .textbox {
+        width: 150px;
+      }
+
+      .send-btn, .delete-btn {
+        height: 35px;
+        padding: 4px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pimg1">
+    <div class="container1">
+      <div class="title">FinAlyze <br></div>
+      <div class="subtitle">Smart Insights for Transaction Records</div>
+    </div>
+
+    <div class="button-container">
+      <!-- Drop File Button -->
+      <label for="file-upload" class="upload-btn file-input-label">Drop File</label>
+      <input type="file" id="file-upload" class="file-input" accept=".csv, .txt, .xlsx" onchange="handleFileChange(event)">
+      
+      <!-- Textbox -->
+      <input type="text" id="textbox" class="textbox" placeholder="OR Enter something...">
+
+      <!-- Send Button -->
+      <button class="send-btn" onclick="sendData()">Send</button>
+      
+      <!-- Delete Button -->
+      <button class="delete-btn" onclick="deleteData()">Delete</button>
+    </div>
+  </div>
+<div id="loading" style="display: none; 
+                         position: fixed; 
+                         top: 50%; 
+                         left: 50%; 
+                         height:100%;
+                         width: 100%;
+                         transform: translate(-50%, -50%); 
+                         background-color: rgba(0, 0, 0, 0.5); 
+                         color: white; 
+                         padding: 20px 30px; 
+                         border-radius: 5px; 
+                         font-size: 18px; 
+                         text-align: center;
+                         z-index: 9999;">
+    Loading...
+    <!-- You can replace this with a spinner or any other loading indicator -->
+</div>
+
+  <script>
+    // Function to handle file selection
+    function handleFileChange(event) {
+      const file = event.target.files[0];
+      const textbox = document.getElementById('textbox');
+      if (file) {
+        textbox.value = "Sending "+file.name; // Set the filename in the textbox
+      }
+    }
+
+    // Send button functionality
+    // Send button functionality
+function sendData() {
+  const textboxValue = document.getElementById('textbox').value;
+  const fileInput = document.getElementById('file-upload');
+  const file = fileInput.files[0];
+
+  const formData = new FormData();
+  if (file) {
+    // If a file is selected, send the file
+    formData.append("file", file);
+  } else if (textboxValue) {
+    // If no file is selected, send the text entered in the textbox
+    formData.append("text", textboxValue);
+  } else {
+    alert("Please select a file or enter some text.");
+    return;
+  }
+
+  // Show the loading page
+  
+  //window.location.href = "/loading";
+  // Sending the data to the backend using Fetch API
+  document.getElementById('loading').style.display = 'block';
+  fetch('/send', {
+    method: 'POST',
+    body: formData,
+  })
+  .then(response => response.json())
+  .then(data => {
+    const keys = Object.keys(data);
+    alert('Response from server: ' + keys.join(','));
+    localStorage.clear();
+    document.getElementById('loading').style.display = 'none';
+    localStorage.setItem("contactData", JSON.stringify(data));
+    window.location.href = "/contact"; // Redirect back to home after completion
+
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('There was an error sending the data.');
+    document.getElementById('loading').style.display = 'none';
+    //window.location.href = "/"; // Redirect back to home in case of error
+  });
+}
+
+    // Delete button functionality to reset file input and textbox
+    function deleteData() {
+      // Reset the file input and the textbox
+      document.getElementById('file-upload').value = '';
+      document.getElementById('textbox').value = '';
+    }
+  </script>
+
+</body>
+</html>
